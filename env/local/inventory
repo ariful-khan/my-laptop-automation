@@ -1,0 +1,3 @@
+# is only a dummy inventory to load vars for the right setup
+[all]
+localhost

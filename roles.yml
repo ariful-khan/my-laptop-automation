@@ -1,0 +1,10 @@
+#
+# http://docs.ansible.com/ansible/galaxy.html#installing-multiple-roles-from-a-file
+#
+# typical run:
+# ansible-galaxy install -f -r roles.yml
+#
+
+- src: geerlingguy.pip
+- src: geerlingguy.docker
+- src: geerlingguy.git
